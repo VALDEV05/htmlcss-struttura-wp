@@ -1,0 +1,69 @@
+/* common rules */*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix ::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+body{
+  width: 70%;
+  margin: auto;
+}
+.debug > .site-header{
+  height: 120px;
+  background-color: rgb(238, 217, 30);
+}
+.debug > .site-main{
+  height: 900px;
+  background-color: cadetblue;
+}
+.debug > .site-footer{
+  height: 50px;
+  background-color: rgb(226, 103, 103);
+}
+.debug .hero-image{
+  height: 360px;
+  background-color: chocolate;
+}
+.debug .hero-image{
+  height: 360px;
+  background-color: chocolate;
+}
+.debug .main-header{
+  height: 130px;
+  background-color: rgb(35, 221, 144);
+}
+.section{
+  padding-bottom: 1rem;
+}
+
+.debug aside,
+.debug .central-bar{
+  height: 390px;
+  background-color: cornflowerblue;
+}
+.left-bar,
+.right-bar{
+  width: 25%;
+}
+.central-bar{
+  width: 48%;
+  margin: 0 1%;
+}
+.main-header{
+  width: 100%;
+  margin-bottom: .5rem;
+}
+
+.main-header,
+.left-bar,
+.central-bar,
+.right-bar{
+  float: left;
+  background-color: cornflowerblue;
+  
+}
